@@ -25,81 +25,63 @@ export class CategoriesPage {
   constructor(public navCtrl: NavController, public navParams: NavParams,public alertCtrl: AlertController) {
   }
 
-  // Firststage(){
-  //   this.navCtrl.push(AiPage);
-  // }
-  // Secondstage(){
-
-    
- 
-  //   const alert = this.alertCtrl.create({
-  //     title: 'Message',
-  //     subTitle: 'this is a second stage start from stage one',
-  //     buttons: ['OK']
-  //   });
-    
-
-    
-  //   alert.present();
-  // }
-  
-  // Thirdstage(){
-
-    
- 
-  //   const alert = this.alertCtrl.create({
-  //     title: 'Message',
-  //     subTitle: 'this is a third stage start from stage one',
-  //     buttons: ['OK']
-  //   });
-  //   alert.present();
-  // }
-  
-  // Fourthstage(){
-
-    
- 
-  //   const alert = this.alertCtrl.create({
-  //     title: 'Message',
-  //     subTitle: 'this is a fourth stage start from stage one',
-  //     buttons: ['OK']
-  //   });
-  //   alert.present();
-  // }
-  
-  // Fivestage(){
-
-    
- 
-  //   const alert = this.alertCtrl.create({
-  //     title: 'Message',
-  //     subTitle: 'this is a firth stage start from stage one',
-  //     buttons: ['OK']
-  //   });
-  //   alert.present();
-  // }
-  
-
-
-  
-  
-  Secondstage(){
-    this.navCtrl.push(ProgrammingPage);
-  }
-  Thirdstage(){
-    this.navCtrl.push(BiologyPage)
-
-  }
-
   Firststage(){
-    this.navCtrl.push(AiPage)
-   }
+    this.navCtrl.push(AiPage);
+  }
+  Secondstage(){
+
+    
+ 
+    const alert = this.alertCtrl.create({
+      title: 'Message',
+      subTitle: 'this is a second stage start from stage one',
+      buttons: ['OK']
+    });
+    
+
+    
+    alert.present();
+  }
+  
+  Thirdstage(){
+
+    
+ 
+    const alert = this.alertCtrl.create({
+      title: 'Message',
+      subTitle: 'this is a third stage start from stage one',
+      buttons: ['OK']
+    });
+    alert.present();
+  }
+  
   Fourthstage(){
-    this.navCtrl.push(PhysicsPage)
+
+    
+ 
+    const alert = this.alertCtrl.create({
+      title: 'Message',
+      subTitle: 'this is a fourth stage start from stage one',
+      buttons: ['OK']
+    });
+    alert.present();
   }
+  
   Fivestage(){
-    this.navCtrl.push(MathsPage)
+
+    
+ 
+    const alert = this.alertCtrl.create({
+      title: 'Message',
+      subTitle: 'this is a firth stage start from stage one',
+      buttons: ['OK']
+    });
+    alert.present();
   }
+  
+
+
+
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad CategoriesPage');
