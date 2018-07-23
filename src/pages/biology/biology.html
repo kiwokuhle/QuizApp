@@ -1,0 +1,77 @@
+<!--
+  Generated template for the BiologyPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+
+<ion-content padding>
+  <div class="main" >
+ 
+<!-- quetion1 -->
+      <ion-item class="item" >
+          <ion-label color="light" >1. Which one of the followingorgans will not feel any pain on being pricked by a needle? </ion-label>
+        
+          <ion-select [(ngModel)]="Quetion1">
+            <ion-option value="1">Skin </ion-option>
+            <ion-option value="2">Brain </ion-option>
+            <ion-option value="3">Heart </ion-option>
+            <ion-option value="4">Eye</ion-option>
+          </ion-select>
+        
+      </ion-item>
+        <!-- question 2 -->
+        <ion-item>
+            <ion-label color="light"  >2.Golden rice is a rich source of - ?</ion-label>
+            <ion-select [(ngModel)]="Quetion2">
+              <ion-option value="1">Vitamin A </ion-option>
+              <ion-option value="2">Vitamin B </ion-option>
+              <ion-option value="3">Vitamin K </ion-option>
+              <ion-option value="4">Vitamin C </ion-option>
+              
+            </ion-select>
+          </ion-item>
+
+          <!-- question 3 -->
+
+          <ion-item>
+              <ion-label color="light" >3. The main element of protein is - </ion-label>
+              <ion-select [(ngModel)]="Quetion3" >
+                <ion-option value="1">Hydrogen </ion-option>
+                <ion-option value="2">Nitrogen </ion-option>
+                <ion-option value="3">Oxygen</ion-option>
+                <ion-option value="4" >Carbon</ion-option>
+              </ion-select>
+            </ion-item>
+            <!-- question4 -->
+            <ion-item>
+                <ion-label color="light" >4. Male mosquitoes take their food from - </ion-label>
+                <ion-select [(ngModel)]="Quetion4">
+                  <ion-option value="1">The human blood </ion-option>
+                  <ion-option value="2">The standing water</ion-option>
+                  <ion-option value="3">The sap of plants </ion-option>
+                  <ion-option value="4">The dung and other debris</ion-option>
+                </ion-select>
+              </ion-item>
+
+              <!-- question 5 -->
+              <ion-item>
+                  <ion-label color="light" >5.The body fights infections with the help of -</ion-label>
+                  <ion-select [(ngModel)]="Quetion5" >
+                    <ion-option value="1">Plasma </ion-option>
+                    <ion-option value="2">Antigen </ion-option>
+                    <ion-option value="3">Good Food </ion-option>
+                    <ion-option value="4">Immune System</ion-option>
+                  </ion-select>
+                </ion-item>
+                <div >
+
+                <button class="button" ion-button  block outline color="light" (click)="Next()"   >Next Level
+
+                  </button>
+                </div>
+              </div>
+
+</ion-content>

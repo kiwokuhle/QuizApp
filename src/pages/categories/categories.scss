@@ -1,0 +1,30 @@
+page-categories {
+    ion-content{
+        background-image: url('../../assets/imgs/3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main 
+    {
+        position: relative;
+        top: 4px;
+       
+     
+    }
+    .card{
+        float: left;
+        height:180px ;
+        width: 40%;
+        padding: 20px;
+        margin-top: 2px;
+        
+
+    }
+    
+    .button{
+        width: 200px;
+
+        justify-content: center;
+    }
+
+}
